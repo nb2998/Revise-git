@@ -10,6 +10,7 @@ To add a specific file: `git add fileName.txt`
 
 ### Removing files
  `git rm file.txt`
+ <br/> To remove directories, `git rm -r dirName`
  <br/><br/><i> To record all removals, additions, and modifications in the working tree use: `git add -A`</i>
  
 ### Commit files

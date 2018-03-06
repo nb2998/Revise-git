@@ -18,4 +18,8 @@ To add a specific file: `git add fileName.txt`
 * Adding more files to the last commit (no change in commit message): <br> 
 `git add file.txt`<br>
 `git commit --amend --no-edit`<br> 
-* In case commit message has to be changed too, `git commit --amend` suffices the purpose. 
+
+  In case commit message has to be changed too, `git commit --amend` suffices the purpose.<br>
+ 
+  Note : To push it now, you need to use the force command (Careful!)<br>
+  `git push origin master --force`<br>

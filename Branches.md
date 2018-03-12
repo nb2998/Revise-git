@@ -1,6 +1,6 @@
 # Branches in git
 ### Create a new branch
-`git branch <ranchName>`
+`git branch <branchName>`
 
 ### Checkout to a branch
 `git checkout <branchName>`
@@ -8,8 +8,9 @@
 Or, simply use: `git checkout -b <branchName>` to create a branch and checkout immediately.
 
 ### Delete a branch:	
-* `git branch -d <branchname>`
-* Delete a branch on your remote repository: `git push origin :<branchname>`
+  * If the branch is fully merged in its upstream branch, or in HEAD if no upstream was set, then : `git branch -d <branchname>` 
+  * Shortcut for -delete --force : `git branch -D <branchname>` 
+  * Delete a branch on your remote repository: `git push origin :<branchname>`
 
 ### Push a branch to your remote repository:	
 `git push origin <branchname>`

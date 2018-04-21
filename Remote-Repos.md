@@ -20,6 +20,13 @@ With the rebase command, you can take all the changes that were committed on one
 #### 4. Push to cloned repo
 `git push origin master`
 
+#### 5. Reset to upstream (CAUTION!)
+You might want to keep a copy of local work first: <br/><br/>
+`git commit -a -m "Saving my work, just in case"`<br/>
+`git branch my-saved-work`</br><br/>
+And then:
+`git reset --hard upstream/master`
+
 ### Reviewing pull requests
 `git fetch upstream pull/PR_Number/head:branchName` </br>
 `git checkout branchName`

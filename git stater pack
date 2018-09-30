@@ -1,0 +1,13 @@
+### git stater pack
+-------------------------------------------------------------------------
+1. Create a Repo on github
+2. Copy the https link of the Repo
+3. Go to the terminal and install git
+4. use command
+    "git clone <enter HTTPS link without any bracket>" 
+5. Coppy your project in the foder created after the command in step '4'
+6. use commands
+    1. git add .
+    2. git commit -m "<Write Message without bracket in double quotes"
+    3. git push origin <Enter Branch to which project is pushed to>
+--------------------------------------------------------------------------

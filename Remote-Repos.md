@@ -30,3 +30,6 @@ And then:
 ### Reviewing pull requests
 `git fetch upstream pull/PR_Number/head:branchName` </br>
 `git checkout branchName`
+
+### If you mess up, you can replace the changes in your working tree with the last content in head
+git checkout -- <filename> 

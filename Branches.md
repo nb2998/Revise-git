@@ -7,6 +7,11 @@
 </br></br>
 Or, simply use: `git checkout -b <branchName>` to create a branch and checkout immediately.
 
+### Merge branches
+Checkout to the branch that you want to merge into and use `merge` followed by the name of the branch to be merged:
+
+`git merge <branchName>`
+
 ### Delete a branch:	
   * If the branch is fully merged in its upstream branch, or in HEAD if no upstream was set, then : `git branch -d <branchname>` 
   * Shortcut for -delete --force : `git branch -D <branchname>` 

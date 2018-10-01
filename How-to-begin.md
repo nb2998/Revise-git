@@ -25,8 +25,12 @@ To add a specific file: `git add fileName.txt`
   `git push origin master --force`<br>
 
 ### Configure the author name and email address to be used with your commits
-git config --global user.name "xyz"
-git config --global user.email xyz@example.com 
+`git config --global user.name "xyz"` <br>
+`git config --global user.email xyz@example.com`
 
 ### View all the file diff
-git diff 
+`git diff` 
+
+### Checking the commits history
+`git log` <br>
+- Summary parameter will show information such as creations, renames and mode changes: `git log --summary`

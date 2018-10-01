@@ -23,3 +23,10 @@ To add a specific file: `git add fileName.txt`
  
   Note : To push it now, you need to use the force command (Careful!)<br>
   `git push origin master --force`<br>
+
+### Configure the author name and email address to be used with your commits
+git config --global user.name "xyz"
+git config --global user.email xyz@example.com 
+
+### View all the file diff
+git diff 
